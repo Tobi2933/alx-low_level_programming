@@ -21,7 +21,7 @@ int main(void)
 
     day = convert_day(month, day);
 
-    printf("Invalid date: %02d/%02d/%04d\n", month, day - 29, year);
+    print_remaining_days(month, day, year);
 
     return (0);
 }
